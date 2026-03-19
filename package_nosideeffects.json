@@ -1,0 +1,13 @@
+{
+  "name": "bunup-namespace-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bunup --target bun ./src/index.ts ./src/other.ts",
+    "run:src": "bun run ./src/index.ts",
+    "run:dist": "bun run ./dist/index.js"
+  },
+  "devDependencies": {
+    "bunup": "^0.16.31"
+  }
+}
